@@ -12,5 +12,8 @@
     <ClInclude Include="CppLearning\classical_polymorphism_and_generic_programming.h">
       <Filter>CppLearning</Filter>
     </ClInclude>
+    <ClInclude Include="CppLearning\combination.h">
+      <Filter>CppLearning</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
