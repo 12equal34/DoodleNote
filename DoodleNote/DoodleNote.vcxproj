@@ -106,6 +106,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)CppLearning\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,6 +123,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)CppLearning\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,11 +133,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DoodleNote.cpp" />
+    <ClCompile Include="DesignPattern\InterfaceSegregation.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComputerProgramming\Contracts.h" />
     <ClInclude Include="CppLearning\classical_polymorphism_and_generic_programming.h" />
-    <ClInclude Include="CppLearning\combination.h" />
+    <ClInclude Include="CppLearning\Destructors.h" />
+    <ClInclude Include="DesignPattern\DependencyInversion.h" />
+    <ClInclude Include="DesignPattern\InterfaceSegregation.h" />
+    <ClInclude Include="DesignPattern\LiskovSubstitution.h" />
+    <ClInclude Include="DesignPattern\OpenClosed.h" />
+    <ClInclude Include="DesignPattern\SingleResponsibility.h" />
+    <ClInclude Include="Implementations\combination.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

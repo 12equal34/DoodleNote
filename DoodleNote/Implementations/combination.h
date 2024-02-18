@@ -105,5 +105,5 @@ namespace Combination2
 
 int main()
 {
-	Combination2::Test();
+	std::cout << -26 / 5 << ","<< -26 % 5 << std::endl;
 }

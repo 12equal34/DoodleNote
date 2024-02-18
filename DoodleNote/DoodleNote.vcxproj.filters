@@ -4,16 +4,55 @@
     <Filter Include="CppLearning">
       <UniqueIdentifier>{0e873f93-44c6-4346-bfe9-7d0c847d37db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DesignPattern">
+      <UniqueIdentifier>{01d52458-112f-4b79-ab35-67e48ae96303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\Private">
+      <UniqueIdentifier>{1b8455e3-7394-4136-a06a-c5ae1ffbef5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputerProgramming">
+      <UniqueIdentifier>{3746d0ab-4a52-4233-8103-16788c616bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesignPattern\SOLID">
+      <UniqueIdentifier>{3f097865-c134-4a68-9d87-7ef379d011ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementations">
+      <UniqueIdentifier>{22039206-4bc6-4ae2-8a30-5a2568240423}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DoodleNote.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DesignPattern\InterfaceSegregation.cpp">
+      <Filter>DesignPattern\Private</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CppLearning\classical_polymorphism_and_generic_programming.h">
       <Filter>CppLearning</Filter>
     </ClInclude>
-    <ClInclude Include="CppLearning\combination.h">
+    <ClInclude Include="DesignPattern\LiskovSubstitution.h">
+      <Filter>DesignPattern\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerProgramming\Contracts.h">
+      <Filter>ComputerProgramming</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\InterfaceSegregation.h">
+      <Filter>DesignPattern\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\SingleResponsibility.h">
+      <Filter>DesignPattern\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\OpenClosed.h">
+      <Filter>DesignPattern\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="CppLearning\Destructors.h">
       <Filter>CppLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\DependencyInversion.h">
+      <Filter>DesignPattern\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementations\combination.h">
+      <Filter>Implementations</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
