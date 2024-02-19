@@ -1,6 +1,6 @@
-#include "DesignPattern/OpenClosed.h"
+#include "DesignPattern/DependencyInversion.h"
 
 int main()
 {
-	Open_Closed_Case::Test();
+	Test();
 }
